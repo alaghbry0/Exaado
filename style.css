@@ -1,0 +1,42 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+button {
+    background-color: #0088cc;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.subscribe {
+    background-color: #4CAF50;
+}
+
+#walletAddress, #paymentStatus {
+    margin-top: 20px;
+}
+
+#transactions {
+    list-style: none;
+    padding: 0;
+}
+
+#transactions li {
+    margin-bottom: 10px;
+}

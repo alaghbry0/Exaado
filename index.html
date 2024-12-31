@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Telegram TON Payments</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Telegram TON Payments</h1>
+        <button id="connectWallet">Connect Wallet</button>
+        <div id="walletAddress" style="display: none;"></div>
+        <div id="plans" style="display: none;">
+            <h2>Plans</h2>
+            <ul>
+                <li>
+                    <h3>Channel 1</h3>
+                    <p>ID: -1002277553158</p>
+                    <button class="subscribe" data-channel-id="-1002277553158">Subscribe (5 TON)</button>
+                </li>
+            </ul>
+        </div>
+        <div id="paymentStatus"></div>
+        <div id="transactionHistory" style="display: none;">
+            <h2>Transaction History</h2>
+            <ul id="transactions"></ul>
+        </div>
+    </div>
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+    <script src="config.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
